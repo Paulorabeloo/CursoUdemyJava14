@@ -2,7 +2,7 @@ package util;
 
 public class Calculator {
     //valor final constante (não muda mais) -> padrão tudo maiusculo
-    public double PI = 3.14159;
+    public final double PI = 3.14159;
 
     public double circumference(double radius) {
         return 2.0 * PI * radius;
